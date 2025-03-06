@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My CV Website</title>
+  <link rel="stylesheet" crossorigin href="/assets/index-D_rEpmN4.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#home">Your Name</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="section">
+        <div class="container">
+            <h1>Welcome to My Portfolio</h1>
+            <p class="lead">Grade Level: [Your Grade]</p>
+            <p>I am passionate about [Your Academic Interests]</p>
+            <button id="hobbiesBtn" class="btn btn-primary">Show My Hobbies</button>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section bg-light">
+        <div class="container">
+            <h2>About Me</h2>
+            
+            <div class="education mb-5">
+                <h3>Education</h3>
+                <div class="card">
+                    <div class="card-body">
+                        <h4>Academic Achievements</h4>
+                        <ul>
+                            <li>Current School: [Your School Name]</li>
+                            <li>Achievement 1</li>
+                            <li>Achievement 2</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activities mb-5">
+                <h3>School Activities</h3>
+                <div class="card">
+                    <div class="card-body">
+                        <ul>
+                            <li>Extracurricular Activity 1</li>
+                            <li>Club Membership</li>
+                            <li>Sports Participation</li>
+                            <li>Volunteer Work</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skills">
+                <h3>Skills</h3>
+                <div class="card">
+                    <div class="card-body">
+                        <ul>
+                            <li>Skill 1</li>
+                            <li>Skill 2</li>
+                            <li>Skill 3</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form id="contactForm" class="needs-validation" novalidate>
+                <div class="mb-3">
+                    <label for="name" class="form-label">Name</label>
+                    <input type="text" class="form-control" id="name" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" required>
+                </div>
+                <div class="mb-3">
+                    <label for="subject" class="form-label">Subject</label>
+                    <input type="text" class="form-control" id="subject" required>
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea class="form-control" id="message" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <p>&copy; 2024 Your Name. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <a href="#home" class="text-white me-3">Home</a>
+                    <a href="#about" class="text-white me-3">About</a>
+                    <a href="#contact" class="text-white">Contact</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
